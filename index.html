@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>학습 현황 조회</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --blue:#1a73e8;--blue-l:#e8f0fe;
+  --green:#34a853;--green-l:#e6f4ea;
+  --yellow:#fbbc04;--yellow-l:#fef7e0;
+  --red:#ea4335;--red-l:#fce8e6;
+  --gray:#5f6368;--gray-l:#f1f3f4;--bd:#e0e0e0;
+  --tx:#202124;--tx2:#5f6368;--tx3:#9aa0a6;
+  --white:#fff;--bg:#f8f9fa;
+  --font:'Noto Sans KR','Apple SD Gothic Neo','맑은 고딕',sans-serif;
+}
+body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100vh}
+.login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.login-card{background:var(--white);border:1px solid var(--bd);border-radius:20px;padding:40px 36px;width:100%;max-width:400px;box-shadow:0 4px 24px rgba(0,0,0,.08);text-align:center}
+.login-logo{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:28px}
+.login-logo-dots{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.login-logo-dots span{width:10px;height:10px;border-radius:50%;display:block}
+.login-title{font-size:22px;font-weight:700;color:var(--tx);margin-bottom:6px}
+.login-sub{font-size:14px;color:var(--tx2);margin-bottom:32px;line-height:1.6}
+.login-label{font-size:13px;color:var(--tx2);text-align:left;margin-bottom:6px;display:block;font-weight:500}
+.login-input{width:100%;padding:13px 16px;border:1.5px solid var(--bd);border-radius:10px;font-size:15px;font-family:var(--font);outline:none;color:var(--tx);transition:border-color .15s;margin-bottom:12px}
+.login-input:focus{border-color:var(--blue)}
+.login-btn{width:100%;padding:13px;border-radius:10px;border:none;background:var(--blue);color:#fff;font-size:15px;font-weight:500;font-family:var(--font);cursor:pointer;transition:background .15s;margin-top:6px}
+.login-btn:hover{background:#1557b0}
+.login-error{color:var(--red);font-size:13px;margin-top:10px;display:none}
+.login-hint{font-size:12px;color:var(--tx3);margin-top:20px;line-height:1.6}
+#view-main{display:none}
+.header{background:var(--white);border-bottom:1px solid var(--bd);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:10}
+.header-left{display:flex;align-items:center;gap:10px}
+.logo-dots{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.logo-dots span{width:8px;height:8px;border-radius:50%;display:block}
+.header-title{font-size:16px;font-weight:500}
+.header-right{display:flex;align-items:center;gap:10px}
+.logout-btn{padding:6px 14px;border-radius:20px;border:1px solid var(--bd);background:var(--white);color:var(--gray);font-size:12px;font-family:var(--font);cursor:pointer}
+.logout-btn:hover{background:var(--gray-l)}
+.student-name-badge{font-size:14px;font-weight:500;color:var(--blue);background:var(--blue-l);padding:5px 14px;border-radius:20px}
+.main{max-width:680px;margin:28px auto;padding:0 20px 48px}
+.prog-card{background:var(--white);border:1px solid var(--bd);border-radius:16px;padding:22px 24px;margin-bottom:20px}
+.prog-card-top{display:flex;align-items:center;gap:16px;margin-bottom:14px}
+.prog-pct{font-size:42px;font-weight:400;color:var(--blue);line-height:1}
+.prog-info{flex:1}
+.prog-label{font-size:12px;color:var(--tx2);margin-bottom:4px}
+.prog-track{height:10px;border-radius:99px;background:#e8eaed;overflow:hidden}
+.prog-fill{height:10px;border-radius:99px;transition:width .5s}
+.prog-stats{display:flex;gap:14px;margin-top:10px;flex-wrap:wrap}
+.prog-stat{font-size:12px;color:var(--tx2);display:flex;align-items:center;gap:5px}
+.prog-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.section-title{font-size:14px;font-weight:500;color:var(--tx2);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--bd)}
+.svc-list{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.svc-card{background:var(--white);border:1px solid var(--bd);border-radius:12px;padding:16px 18px}
+.svc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px;flex-wrap:wrap}
+.svc-name{font-size:15px;font-weight:500;color:var(--tx)}
+.dday{font-size:11px;font-weight:500;padding:3px 10px;border-radius:99px}
+.dd-gray{background:var(--gray-l);color:var(--gray)}
+.dd-red{background:var(--red-l);color:#c5221f}
+.dd-yellow{background:var(--yellow-l);color:#b06000}
+.dd-green{background:var(--green-l);color:#137333}
+.dd-past{background:var(--red-l);color:#c5221f}
+.svc-dl{font-size:12px;color:var(--tx3);margin-bottom:10px}
+.svc-status{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:99px;font-size:13px;font-weight:500}
+.st-none{background:var(--red-l);color:#c5221f}
+.st-solved{background:var(--yellow-l);color:#b06000}
+.st-done{background:var(--green-l);color:#137333}
+.svc-bar-track{height:5px;border-radius:99px;background:#e8eaed;margin-top:10px}
+.svc-bar-fill{height:5px;border-radius:99px;transition:width .4s}
+.test-table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--bd);border-radius:12px;overflow:hidden;font-size:13px}
+.test-table th{padding:9px 14px;text-align:left;font-size:12px;font-weight:500;color:var(--tx2);background:var(--gray-l);border-bottom:1px solid var(--bd)}
+.test-table td{padding:9px 14px;border-bottom:1px solid #f1f3f4;vertical-align:middle}
+.test-table tr:last-child td{border-bottom:none}
+.score-badge{display:inline-block;padding:2px 9px;border-radius:99px;font-size:12px;font-weight:500}
+.sh{background:var(--green-l);color:#137333}
+.sm{background:var(--yellow-l);color:#b06000}
+.sl{background:var(--red-l);color:#c5221f}
+.no-test{text-align:center;padding:32px;color:var(--tx3);font-size:13px}
+.att-card{background:var(--white);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;margin-bottom:20px}
+.att-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.att-month-label{font-size:14px;font-weight:500}
+.att-nav{display:flex;gap:5px}
+.att-nav-btn{background:none;border:1px solid var(--bd);border-radius:6px;width:26px;height:26px;cursor:pointer;font-size:13px;color:var(--tx2)}
+.att-nav-btn:hover{background:var(--gray-l)}
+.att-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+.att-dow{text-align:center;font-size:11px;font-weight:500;color:var(--tx3);padding:3px 0}
+.att-dow:first-child{color:var(--red)}
+.att-dow:last-child{color:var(--blue)}
+.att-day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:6px;font-size:12px;border:1.5px solid transparent}
+.att-day.empty{background:none}
+.att-day.today{border-color:var(--blue);color:var(--blue);font-weight:700}
+.att-day.present{background:var(--green-l);color:#137333;font-weight:500}
+.att-day.absent{background:var(--red-l);color:#c5221f;font-weight:500}
+.att-summary{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+.att-chip{font-size:12px;padding:3px 10px;border-radius:99px;font-weight:500}
+.att-legend{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap}
+.att-leg{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--tx2)}
+.att-leg-box{width:12px;height:12px;border-radius:3px}
+.empty-state{text-align:center;padding:60px 20px;color:var(--tx3)}
+.empty-state h2{font-size:18px;font-weight:500;margin-bottom:8px}
+.empty-state p{font-size:13px;line-height:1.7}
+.tab-nav{display:flex;gap:0;border-bottom:1px solid var(--bd);margin-bottom:20px;background:var(--white);border-radius:12px 12px 0 0;overflow:hidden}
+.tab-btn{flex:1;padding:12px 8px;font-size:13px;font-weight:500;font-family:var(--font);color:var(--tx2);background:none;border:none;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;margin-bottom:-1px}
+.tab-btn.active{color:var(--blue);border-bottom-color:var(--blue)}
+.tab-btn:hover:not(.active){color:var(--tx);background:var(--gray-l)}
+.tab-content{display:none}.tab-content.active{display:block}
+.updated-at{text-align:center;font-size:11px;color:var(--tx3);margin-top:32px}
+</style>
+</head>
+<body>
+<div class="login-wrap" id="view-login">
+  <div class="login-card">
+    <div class="login-logo">
+      <div class="login-logo-dots">
+        <span style="background:#4285f4"></span><span style="background:#ea4335"></span>
+        <span style="background:#fbbc04"></span><span style="background:#34a853"></span>
+      </div>
+    </div>
+    <div class="login-title">학습 현황 조회</div>
+    <div class="login-sub">자녀의 이름을 입력하시면<br>학습 서비스 진행 현황을 확인하실 수 있습니다.</div>
+    <label class="login-label">학생 이름</label>
+    <input class="login-input" id="name-input" type="text" placeholder="예) 홍길동" autocomplete="off" onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="login-btn" onclick="doLogin()">조회하기</button>
+    <div class="login-error" id="login-error">입력하신 이름의 학생을 찾을 수 없습니다.<br>이름을 다시 확인해 주세요.</div>
+    <div class="login-hint">※ 문의사항은 담당 선생님께 연락해 주세요.</div>
+  </div>
+</div>
+<div id="view-main">
+  <div class="header">
+    <div class="header-left">
+      <div class="logo-dots">
+        <span style="background:#4285f4"></span><span style="background:#ea4335"></span>
+        <span style="background:#fbbc04"></span><span style="background:#34a853"></span>
+      </div>
+      <span class="header-title">학습 현황</span>
+    </div>
+    <div class="header-right">
+      <span class="student-name-badge" id="header-name"></span>
+      <button class="logout-btn" onclick="doLogout()">← 다시 조회</button>
+    </div>
+  </div>
+  <div class="main">
+    <div id="content-area"></div>
+    <div class="updated-at" id="updated-at"></div>
+  </div>
+</div>
+<script>
+const DASHBOARD_DATA = {"classes":[{"id":1,"name":"A반"},{"id":2,"name":"B반"}],"students":[{"id":1,"name":"김민준","classId":1,"phone":"","parentPhone":"010-1234-5678","grade":"고2","memo":"","goal":"","services":[{"id":1,"name":"수학 문제집","deadline":"","status":"none"},{"id":2,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":1,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":2,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":2,"name":"이서연","classId":1,"phone":"","parentPhone":"010-2345-6789","grade":"고1","memo":"","goal":"","services":[{"id":3,"name":"수학 문제집","deadline":"","status":"none"},{"id":4,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":3,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":4,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":3,"name":"박지후","classId":2,"phone":"","parentPhone":"","grade":"고3","memo":"","goal":"","services":[{"id":5,"name":"수학 문제집","deadline":"","status":"none"},{"id":6,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":5,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":6,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":4,"name":"최유나","classId":2,"phone":"","parentPhone":"010-4567-8901","grade":"고2","memo":"","goal":"","services":[{"id":7,"name":"수학 문제집","deadline":"","status":"none"},{"id":8,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":7,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":8,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":5,"name":"정도윤","classId":null,"phone":"","parentPhone":"","grade":"고1","memo":"","goal":"","services":[{"id":9,"name":"수학 문제집","deadline":"","status":"none"},{"id":10,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":9,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":10,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}}],"nSid":6,"nSvcId":11,"nTid":11,"nCid":3};
+const UPDATED_AT = '2026년 06월 03일';
+let currentStudent=null,attYear=new Date().getFullYear(),attMonth=new Date().getMonth();
+function todayStr(){const d=new Date();return[d.getFullYear(),(d.getMonth()+1).toString().padStart(2,'0'),d.getDate().toString().padStart(2,'0')].join('-');}
+function getDday(dl){if(!dl)return null;const t=new Date();t.setHours(0,0,0,0);const d=new Date(dl);d.setHours(0,0,0,0);return Math.round((d-t)/864e5);}
+function ddInfo(dl){const dd=getDday(dl);if(
