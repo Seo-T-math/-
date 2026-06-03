@@ -1,0 +1,32 @@
+name: 학부모 뷰어 자동 빌드
+
+on:
+  push:
+    paths:
+      - 'data.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: index.html 생성
+        run: python3 build.py
+
+      - name: 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --staged --quiet || git commit -m "학부모 뷰어 자동 업데이트 $(date '+%Y-%m-%d %H:%M')"
+          git push
