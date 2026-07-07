@@ -546,10 +546,30 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 39,
+      "name": "전헤인",
+      "classId": 7,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 9,
+          "name": "개쩔지 다 만들었음",
+          "deadline": "",
+          "status": "done"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 39,
-  "nSvcId": 9,
+  "nSid": 40,
+  "nSvcId": 10,
   "nTid": 1,
   "nCid": 9
 }
