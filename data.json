@@ -17,16 +17,8 @@
       "name": "화목고2"
     },
     {
-      "id": 5,
-      "name": "약논술"
-    },
-    {
       "id": 7,
       "name": "저현고 3학년 11반"
-    },
-    {
-      "id": 8,
-      "name": "명문"
     }
   ],
   "students": [
@@ -39,7 +31,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 11,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -52,7 +51,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 12,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -65,7 +71,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 13,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -78,7 +91,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 14,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -91,7 +111,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 15,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -104,7 +131,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 16,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -117,7 +151,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 17,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -130,7 +171,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 18,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -143,7 +191,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 19,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -156,7 +211,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 20,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -169,7 +231,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 21,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -182,7 +251,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 22,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -195,7 +271,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 23,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -208,7 +291,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 24,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -221,7 +311,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 25,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -234,7 +331,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 26,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -247,7 +351,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 27,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -260,7 +371,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 28,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -273,7 +391,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 29,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -286,7 +411,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 30,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -299,7 +431,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 31,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -312,7 +451,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 32,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -325,7 +471,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 33,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -338,7 +491,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 34,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -351,7 +511,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 35,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -364,7 +531,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 36,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -377,33 +551,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 29,
-      "name": "정준호",
-      "classId": 5,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 30,
-      "name": "박규량",
-      "classId": 5,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 37,
+          "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
+          "deadline": "2026-07-12",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -428,126 +583,6 @@
       "att": {}
     },
     {
-      "id": 32,
-      "name": "이한빈",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 2,
-          "name": "LIG 수석 연구원",
-          "deadline": "",
-          "status": "done"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 33,
-      "name": "최중희",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 3,
-          "name": "그랜드 슬램 앞으로 1보",
-          "deadline": "",
-          "status": "solved"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 34,
-      "name": "김용환",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 4,
-          "name": "대출 스페셜리스트 ",
-          "deadline": "",
-          "status": "done"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 35,
-      "name": "문은혁",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 5,
-          "name": "GMO 장인",
-          "deadline": "",
-          "status": "done"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 36,
-      "name": "배경민",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 6,
-          "name": "석윤경 베프",
-          "deadline": "",
-          "status": "done"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 37,
-      "name": "오상택",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 7,
-          "name": "바늘 도둑 소 도둑",
-          "deadline": "",
-          "status": "solved"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
       "id": 39,
       "name": "전혜인",
       "classId": 7,
@@ -566,30 +601,10 @@
       ],
       "tests": [],
       "att": {}
-    },
-    {
-      "id": 40,
-      "name": "한경진",
-      "classId": 8,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 10,
-          "name": "70만원 가져오십쇼",
-          "deadline": "",
-          "status": "done"
-        }
-      ],
-      "tests": [],
-      "att": {}
     }
   ],
   "nSid": 41,
-  "nSvcId": 11,
+  "nSvcId": 40,
   "nTid": 1,
   "nCid": 9
 }
