@@ -506,10 +506,50 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 36,
+      "name": "배경민",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 6,
+          "name": "석윤경 베프",
+          "deadline": "",
+          "status": "done"
+        }
+      ],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 37,
+      "name": "오상택",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 7,
+          "name": "바늘 도둑 소 도둑",
+          "deadline": "",
+          "status": "solved"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 36,
-  "nSvcId": 6,
+  "nSid": 39,
+  "nSvcId": 9,
   "nTid": 1,
   "nCid": 9
 }
