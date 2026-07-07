@@ -18,6 +18,8 @@
   --font:'Noto Sans KR','Apple SD Gothic Neo','맑은 고딕',sans-serif;
 }
 body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100vh}
+
+/* ── 로그인 화면 ── */
 .login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
 .login-card{background:var(--white);border:1px solid var(--bd);border-radius:20px;padding:40px 36px;width:100%;max-width:400px;box-shadow:0 4px 24px rgba(0,0,0,.08);text-align:center}
 .login-logo{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:28px}
@@ -32,6 +34,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
 .login-btn:hover{background:#1557b0}
 .login-error{color:var(--red);font-size:13px;margin-top:10px;display:none}
 .login-hint{font-size:12px;color:var(--tx3);margin-top:20px;line-height:1.6}
+
+/* ── 뷰어 화면 ── */
 #view-main{display:none}
 .header{background:var(--white);border-bottom:1px solid var(--bd);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:10}
 .header-left{display:flex;align-items:center;gap:10px}
@@ -42,7 +46,10 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
 .logout-btn{padding:6px 14px;border-radius:20px;border:1px solid var(--bd);background:var(--white);color:var(--gray);font-size:12px;font-family:var(--font);cursor:pointer}
 .logout-btn:hover{background:var(--gray-l)}
 .student-name-badge{font-size:14px;font-weight:500;color:var(--blue);background:var(--blue-l);padding:5px 14px;border-radius:20px}
+
 .main{max-width:680px;margin:28px auto;padding:0 20px 48px}
+
+/* 진행률 카드 */
 .prog-card{background:var(--white);border:1px solid var(--bd);border-radius:16px;padding:22px 24px;margin-bottom:20px}
 .prog-card-top{display:flex;align-items:center;gap:16px;margin-bottom:14px}
 .prog-pct{font-size:42px;font-weight:400;color:var(--blue);line-height:1}
@@ -53,6 +60,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
 .prog-stats{display:flex;gap:14px;margin-top:10px;flex-wrap:wrap}
 .prog-stat{font-size:12px;color:var(--tx2);display:flex;align-items:center;gap:5px}
 .prog-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+/* D-day 배지 */
 .section-title{font-size:14px;font-weight:500;color:var(--tx2);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--bd)}
 .svc-list{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
 .svc-card{background:var(--white);border:1px solid var(--bd);border-radius:12px;padding:16px 18px}
@@ -66,11 +75,13 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
 .dd-past{background:var(--red-l);color:#c5221f}
 .svc-dl{font-size:12px;color:var(--tx3);margin-bottom:10px}
 .svc-status{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:99px;font-size:13px;font-weight:500}
-.st-none{background:var(--red-l);color:#c5221f}
+.st-none  {background:var(--red-l);color:#c5221f}
 .st-solved{background:var(--yellow-l);color:#b06000}
-.st-done{background:var(--green-l);color:#137333}
+.st-done  {background:var(--green-l);color:#137333}
 .svc-bar-track{height:5px;border-radius:99px;background:#e8eaed;margin-top:10px}
 .svc-bar-fill{height:5px;border-radius:99px;transition:width .4s}
+
+/* 테스트 결과 */
 .test-table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--bd);border-radius:12px;overflow:hidden;font-size:13px}
 .test-table th{padding:9px 14px;text-align:left;font-size:12px;font-weight:500;color:var(--tx2);background:var(--gray-l);border-bottom:1px solid var(--bd)}
 .test-table td{padding:9px 14px;border-bottom:1px solid #f1f3f4;vertical-align:middle}
@@ -80,6 +91,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
 .sm{background:var(--yellow-l);color:#b06000}
 .sl{background:var(--red-l);color:#c5221f}
 .no-test{text-align:center;padding:32px;color:var(--tx3);font-size:13px}
+
+/* 출결 달력 */
 .att-card{background:var(--white);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;margin-bottom:20px}
 .att-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
 .att-month-label{font-size:14px;font-weight:500}
@@ -100,18 +113,26 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
 .att-legend{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap}
 .att-leg{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--tx2)}
 .att-leg-box{width:12px;height:12px;border-radius:3px}
+
+/* 빈 상태 */
 .empty-state{text-align:center;padding:60px 20px;color:var(--tx3)}
 .empty-state h2{font-size:18px;font-weight:500;margin-bottom:8px}
 .empty-state p{font-size:13px;line-height:1.7}
+
+/* 탭 */
 .tab-nav{display:flex;gap:0;border-bottom:1px solid var(--bd);margin-bottom:20px;background:var(--white);border-radius:12px 12px 0 0;overflow:hidden}
 .tab-btn{flex:1;padding:12px 8px;font-size:13px;font-weight:500;font-family:var(--font);color:var(--tx2);background:none;border:none;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;margin-bottom:-1px}
 .tab-btn.active{color:var(--blue);border-bottom-color:var(--blue)}
 .tab-btn:hover:not(.active){color:var(--tx);background:var(--gray-l)}
 .tab-content{display:none}.tab-content.active{display:block}
+
+/* 갱신일 */
 .updated-at{text-align:center;font-size:11px;color:var(--tx3);margin-top:32px}
 </style>
 </head>
 <body>
+
+<!-- 로그인 화면 -->
 <div class="login-wrap" id="view-login">
   <div class="login-card">
     <div class="login-logo">
@@ -123,12 +144,15 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
     <div class="login-title">학습 현황 조회</div>
     <div class="login-sub">자녀의 이름을 입력하시면<br>학습 서비스 진행 현황을 확인하실 수 있습니다.</div>
     <label class="login-label">학생 이름</label>
-    <input class="login-input" id="name-input" type="text" placeholder="예) 홍길동" autocomplete="off" onkeydown="if(event.key==='Enter')doLogin()">
+    <input class="login-input" id="name-input" type="text" placeholder="예) 홍길동" autocomplete="off"
+           onkeydown="if(event.key==='Enter')doLogin()">
     <button class="login-btn" onclick="doLogin()">조회하기</button>
     <div class="login-error" id="login-error">입력하신 이름의 학생을 찾을 수 없습니다.<br>이름을 다시 확인해 주세요.</div>
     <div class="login-hint">※ 문의사항은 담당 선생님께 연락해 주세요.</div>
   </div>
 </div>
+
+<!-- 메인 뷰어 -->
 <div id="view-main">
   <div class="header">
     <div class="header-left">
@@ -143,28 +167,256 @@ body{font-family:var(--font);background:var(--bg);color:var(--tx);min-height:100
       <button class="logout-btn" onclick="doLogout()">← 다시 조회</button>
     </div>
   </div>
+
   <div class="main">
     <div id="content-area"></div>
     <div class="updated-at" id="updated-at"></div>
   </div>
 </div>
+
 <script>
-const DASHBOARD_DATA = {"classes":[{"id":1,"name":"A반"},{"id":2,"name":"B반"}],"students":[{"id":1,"name":"김민준","classId":1,"phone":"","parentPhone":"010-1234-5678","grade":"고2","memo":"","goal":"","services":[{"id":1,"name":"수학 문제집","deadline":"","status":"none"},{"id":2,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":1,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":2,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":2,"name":"이서연","classId":1,"phone":"","parentPhone":"010-2345-6789","grade":"고1","memo":"","goal":"","services":[{"id":3,"name":"수학 문제집","deadline":"","status":"none"},{"id":4,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":3,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":4,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":3,"name":"박지후","classId":2,"phone":"","parentPhone":"","grade":"고3","memo":"","goal":"","services":[{"id":5,"name":"수학 문제집","deadline":"","status":"none"},{"id":6,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":5,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":6,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":4,"name":"최유나","classId":2,"phone":"","parentPhone":"010-4567-8901","grade":"고2","memo":"","goal":"","services":[{"id":7,"name":"수학 문제집","deadline":"","status":"none"},{"id":8,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":7,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":8,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}},{"id":5,"name":"정도윤","classId":null,"phone":"","parentPhone":"","grade":"고1","memo":"","goal":"","services":[{"id":9,"name":"수학 문제집","deadline":"","status":"none"},{"id":10,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":9,"date":"2026-06-02","subject":"수학","score":78,"total":100},{"id":10,"date":"2026-06-02","subject":"영어","score":92,"total":100}],"att":{}}],"nSid":6,"nSvcId":11,"nTid":11,"nCid":3};
-const UPDATED_AT = '2026년 06월 03일';
-let currentStudent=null,attYear=new Date().getFullYear(),attMonth=new Date().getMonth();
-function todayStr(){const d=new Date();return[d.getFullYear(),(d.getMonth()+1).toString().padStart(2,'0'),d.getDate().toString().padStart(2,'0')].join('-');}
-function getDday(dl){if(!dl)return null;const t=new Date();t.setHours(0,0,0,0);const d=new Date(dl);d.setHours(0,0,0,0);return Math.round((d-t)/864e5);}
-function ddInfo(dl){const dd=getDday(dl);if(dd===null)return{t:'마감일 미정',c:'dd-gray'};if(dd<0)return{t:'D+'+Math.abs(dd)+' 마감됨',c:'dd-past'};if(dd===0)return{t:'D-DAY',c:'dd-red'};if(dd<=7)return{t:'D-'+dd,c:'dd-red'};if(dd<=14)return{t:'D-'+dd,c:'dd-yellow'};return{t:'D-'+dd,c:'dd-green'};}
-function svcPct(sv){return sv.status==='done'?100:sv.status==='solved'?50:0;}
-function totalPct(s){if(!s.services||!s.services.length)return 0;return Math.round(s.services.reduce((a,sv)=>a+svcPct(sv),0)/s.services.length);}
-function className(cid){if(!cid||!DASHBOARD_DATA.classes)return'';const c=DASHBOARD_DATA.classes.find(c=>c.id===cid);return c?c.name:'';}
-function doLogin(){const input=document.getElementById('name-input').value.trim();const errEl=document.getElementById('login-error');if(!input)return;const student=(DASHBOARD_DATA.students||[]).find(s=>s.name===input||s.name.includes(input)||input.includes(s.name));if(!student){errEl.style.display='block';document.getElementById('name-input').focus();return;}errEl.style.display='none';currentStudent=student;attYear=new Date().getFullYear();attMonth=new Date().getMonth();showMain(student);}
-function doLogout(){currentStudent=null;document.getElementById('name-input').value='';document.getElementById('view-login').style.display='flex';document.getElementById('view-main').style.display='none';}
-function showMain(s){document.getElementById('view-login').style.display='none';document.getElementById('view-main').style.display='block';document.getElementById('header-name').textContent=s.name+(s.grade?' · '+s.grade:'')+(s.classId?' · '+className(s.classId):'');document.getElementById('updated-at').textContent='최종 업데이트: '+UPDATED_AT;renderContent(s);}
-function renderContent(s){const area=document.getElementById('content-area');const p=totalPct(s);const done=(s.services||[]).filter(sv=>sv.status==='done').length;const solved=(s.services||[]).filter(sv=>sv.status==='solved').length;const none=(s.services||[]).filter(sv=>sv.status==='none'||!sv.status).length;const total=(s.services||[]).length;const bc=p===100?'#34a853':p>=50?'#1a73e8':'#ea4335';let html=`<div class="prog-card"><div class="prog-card-top"><div class="prog-pct">${p}%</div><div class="prog-info"><div class="prog-label">${s.name} 학생 전체 진행률</div><div class="prog-track"><div class="prog-fill" style="width:${p}%;background:${bc}"></div></div></div></div><div class="prog-stats"><div class="prog-stat"><div class="prog-dot" style="background:#34a853"></div>오답완료 ${done}개</div><div class="prog-stat"><div class="prog-dot" style="background:#fbbc04"></div>풀이완료 ${solved}개</div><div class="prog-stat"><div class="prog-dot" style="background:#ea4335"></div>미완료 ${none}개</div><div class="prog-stat" style="margin-left:auto;color:var(--tx2)">전체 ${total}개</div></div></div>`;html+=`<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('svc',this)">서비스 현황</button><button class="tab-btn" onclick="switchTab('test',this)">테스트 결과</button><button class="tab-btn" onclick="switchTab('att',this)">출결</button></div>`;html+=`<div class="tab-content active" id="tab-svc">`;if(!s.services||!s.services.length){html+=`<div class="empty-state"><h2>등록된 서비스가 없습니다</h2><p>선생님께 문의해 주세요.</p></div>`;}else{html+=`<div class="svc-list">`;s.services.forEach(sv=>{const di=ddInfo(sv.deadline);const p2=svcPct(sv);const bc2=sv.status==='done'?'#34a853':sv.status==='solved'?'#fbbc04':'#ea4335';const stCls=sv.status==='done'?'st-done':sv.status==='solved'?'st-solved':'st-none';const stTxt=sv.status==='done'?'✅ 오답 완료':sv.status==='solved'?'🟡 풀이 완료':'⬜ 미완료';html+=`<div class="svc-card"><div class="svc-top"><span class="svc-name">${sv.name}</span><span class="dday ${di.c}">${di.t}</span></div>${sv.deadline?`<div class="svc-dl">📅 마감일: ${sv.deadline}</div>`:''}<span class="svc-status ${stCls}">${stTxt}</span><div class="svc-bar-track"><div class="svc-bar-fill" style="width:${p2}%;background:${bc2}"></div></div></div>`;});html+=`</div>`;}html+=`</div>`;html+=`<div class="tab-content" id="tab-test">`;if(!s.tests||!s.tests.length){html+=`<div class="no-test">테스트 기록이 없습니다.</div>`;}else{html+=`<table class="test-table"><thead><tr><th>날짜</th><th>과목</th><th>점수</th><th>환산</th></tr></thead><tbody>`;[...s.tests].reverse().forEach(t=>{const pct=Math.round(t.score/t.total*100);const sc=pct>=80?'sh':pct>=60?'sm':'sl';html+=`<tr><td style="color:var(--tx2);font-size:12px">${t.date}</td><td style="font-weight:500">${t.subject}</td><td><span class="score-badge ${sc}">${t.score}/${t.total}</span></td><td style="color:var(--tx2)">${pct}%</td></tr>`;});html+=`</tbody></table>`;}html+=`</div>`;html+=`<div class="tab-content" id="tab-att"><div id="att-wrap"></div></div>`;area.innerHTML=html;renderAttCal(s);}
-function switchTab(name,el){document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));el.classList.add('active');document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));document.getElementById('tab-'+name).classList.add('active');if(name==='att')renderAttCal(currentStudent);}
-function renderAttCal(s){const wrap=document.getElementById('att-wrap');if(!wrap)return;if(!s.att)s.att={};const mn=['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];const tf=todayStr();const firstDay=new Date(attYear,attMonth,1).getDay();const dim=new Date(attYear,attMonth+1,0).getDate();const ym=attYear+'-'+(attMonth+1).toString().padStart(2,'0');let html=`<div class="att-card"><div class="att-header"><span class="att-month-label">${attYear}년 ${mn[attMonth]}</span><div class="att-nav"><button class="att-nav-btn" onclick="moveAtt(-1)">&#8249;</button><button class="att-nav-btn" onclick="moveAtt(0)">●</button><button class="att-nav-btn" onclick="moveAtt(1)">&#8250;</button></div></div><div class="att-grid">`;['일','월','화','수','목','금','토'].forEach(d=>{html+=`<div class="att-dow">${d}</div>`;});for(let i=0;i<firstDay;i++)html+=`<div class="att-day empty"></div>`;for(let d=1;d<=dim;d++){const key=ym+'-'+d.toString().padStart(2,'0');const val=s.att[key];let cls='att-day';if(val==='O')cls+=' present';else if(val==='X')cls+=' absent';else if(key===tf)cls+=' today';html+=`<div class="${cls}">${d}</div>`;}const keys=Object.keys(s.att).filter(k=>k.startsWith(ym));const present=keys.filter(k=>s.att[k]==='O').length;const absent=keys.filter(k=>s.att[k]==='X').length;html+=`</div><div class="att-summary"><span class="att-chip" style="background:var(--green-l);color:#137333">출석 ${present}일</span><span class="att-chip" style="background:var(--red-l);color:#c5221f">결석 ${absent}일</span><span class="att-chip" style="background:var(--gray-l);color:var(--gray)">미기록 ${dim-present-absent}일</span></div><div class="att-legend"><div class="att-leg"><div class="att-leg-box" style="background:var(--green-l);border:1px solid #a8d5b5"></div>출석</div><div class="att-leg"><div class="att-leg-box" style="background:var(--red-l);border:1px solid #f5c6c5"></div>결석</div><div class="att-leg"><div class="att-leg-box" style="background:#fff;border:1px solid var(--bd)"></div>미기록</div></div></div>`;wrap.innerHTML=html;}
-function moveAtt(dir){if(dir===0){attYear=new Date().getFullYear();attMonth=new Date().getMonth();}else{attMonth+=dir;if(attMonth<0){attMonth=11;attYear--;}if(attMonth>11){attMonth=0;attYear++;}}renderAttCal(currentStudent);}
+// ════════════════════════════════════════════════════════════
+// 데이터 — 이 부분이 Python 스크립트로 자동 교체됩니다
+// ════════════════════════════════════════════════════════════
+const DASHBOARD_DATA = {"classes":[{"id":1,"name":"A반"},{"id":2,"name":"B반"}],"students":[{"id":1,"name":"김민준","classId":1,"phone":"","parentPhone":"010-1234-5678","grade":"고2","memo":"","goal":"","services":[{"id":1,"name":"수학 문제집","deadline":"","status":"solved"},{"id":2,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":1,"date":"2026-07-07","subject":"수학","score":78,"total":100},{"id":2,"date":"2026-07-07","subject":"영어","score":92,"total":100}],"att":{}},{"id":2,"name":"이서연","classId":1,"phone":"","parentPhone":"010-2345-6789","grade":"고1","memo":"","goal":"","services":[{"id":3,"name":"수학 문제집","deadline":"","status":"none"},{"id":4,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":3,"date":"2026-07-07","subject":"수학","score":78,"total":100},{"id":4,"date":"2026-07-07","subject":"영어","score":92,"total":100}],"att":{}},{"id":3,"name":"박지후","classId":2,"phone":"","parentPhone":"","grade":"고3","memo":"","goal":"","services":[{"id":5,"name":"수학 문제집","deadline":"","status":"none"},{"id":6,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":5,"date":"2026-07-07","subject":"수학","score":78,"total":100},{"id":6,"date":"2026-07-07","subject":"영어","score":92,"total":100}],"att":{}},{"id":4,"name":"최유나","classId":2,"phone":"","parentPhone":"010-4567-8901","grade":"고2","memo":"","goal":"","services":[{"id":7,"name":"수학 문제집","deadline":"","status":"none"},{"id":8,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":7,"date":"2026-07-07","subject":"수학","score":78,"total":100},{"id":8,"date":"2026-07-07","subject":"영어","score":92,"total":100}],"att":{}},{"id":5,"name":"정도윤","classId":null,"phone":"","parentPhone":"","grade":"고1","memo":"","goal":"","services":[{"id":9,"name":"수학 문제집","deadline":"","status":"none"},{"id":10,"name":"영어 독해","deadline":"","status":"solved"}],"tests":[{"id":9,"date":"2026-07-07","subject":"수학","score":78,"total":100},{"id":10,"date":"2026-07-07","subject":"영어","score":92,"total":100}],"att":{}}],"nSid":6,"nSvcId":11,"nTid":11,"nCid":3};
+const UPDATED_AT = '2026년 07월 07일 07:36';
+// ════════════════════════════════════════════════════════════
+
+let currentStudent = null;
+let attYear = new Date().getFullYear();
+let attMonth = new Date().getMonth();
+
+// ── 유틸 ──────────────────────────────────────────────────
+function todayStr() {
+  const d = new Date();
+  return [d.getFullYear(),(d.getMonth()+1).toString().padStart(2,'0'),d.getDate().toString().padStart(2,'0')].join('-');
+}
+function getDday(dl) {
+  if (!dl) return null;
+  const t = new Date(); t.setHours(0,0,0,0);
+  const d = new Date(dl); d.setHours(0,0,0,0);
+  return Math.round((d-t)/864e5);
+}
+function ddInfo(dl) {
+  const dd = getDday(dl);
+  if (dd === null) return {t:'마감일 미정', c:'dd-gray'};
+  if (dd < 0)  return {t:'D+'+Math.abs(dd)+' 마감됨', c:'dd-past'};
+  if (dd === 0) return {t:'D-DAY', c:'dd-red'};
+  if (dd <= 7)  return {t:'D-'+dd, c:'dd-red'};
+  if (dd <= 14) return {t:'D-'+dd, c:'dd-yellow'};
+  return {t:'D-'+dd, c:'dd-green'};
+}
+function svcPct(sv) { return sv.status==='done'?100:sv.status==='solved'?50:0; }
+function totalPct(s) {
+  if (!s.services||!s.services.length) return 0;
+  return Math.round(s.services.reduce((a,sv)=>a+svcPct(sv),0)/s.services.length);
+}
+function className(cid) {
+  if (!cid||!DASHBOARD_DATA.classes) return '';
+  const c = DASHBOARD_DATA.classes.find(c=>c.id===cid);
+  return c ? c.name : '';
+}
+
+// ── 로그인 ────────────────────────────────────────────────
+function doLogin() {
+  const input = document.getElementById('name-input').value.trim();
+  const errEl = document.getElementById('login-error');
+  if (!input) return;
+
+  const student = (DASHBOARD_DATA.students||[]).find(s =>
+    s.name === input || s.name.includes(input) || input.includes(s.name)
+  );
+
+  if (!student) {
+    errEl.style.display = 'block';
+    document.getElementById('name-input').focus();
+    return;
+  }
+
+  errEl.style.display = 'none';
+  currentStudent = student;
+  attYear = new Date().getFullYear();
+  attMonth = new Date().getMonth();
+  showMain(student);
+}
+
+function doLogout() {
+  currentStudent = null;
+  document.getElementById('name-input').value = '';
+  document.getElementById('view-login').style.display = 'flex';
+  document.getElementById('view-main').style.display = 'none';
+}
+
+// ── 메인 화면 ─────────────────────────────────────────────
+function showMain(s) {
+  document.getElementById('view-login').style.display = 'none';
+  document.getElementById('view-main').style.display = 'block';
+  document.getElementById('header-name').textContent =
+    s.name + (s.grade ? ' · ' + s.grade : '') + (s.classId ? ' · ' + className(s.classId) : '');
+  if (UPDATED_AT && UPDATED_AT !== '2026년 07월 07일 07:36') {
+    document.getElementById('updated-at').textContent = '최종 업데이트: ' + UPDATED_AT;
+  }
+  renderContent(s);
+}
+
+function renderContent(s) {
+  const area = document.getElementById('content-area');
+  const p = totalPct(s);
+  const done   = (s.services||[]).filter(sv=>sv.status==='done').length;
+  const solved = (s.services||[]).filter(sv=>sv.status==='solved').length;
+  const none   = (s.services||[]).filter(sv=>sv.status==='none'||!sv.status).length;
+  const total  = (s.services||[]).length;
+  const bc = p===100?'#34a853':p>=50?'#1a73e8':'#ea4335';
+
+  let html = '';
+
+  // 진행률 카드
+  html += `<div class="prog-card">
+    <div class="prog-card-top">
+      <div class="prog-pct">${p}%</div>
+      <div class="prog-info">
+        <div class="prog-label">${s.name} 학생 전체 진행률</div>
+        <div class="prog-track"><div class="prog-fill" style="width:${p}%;background:${bc}"></div></div>
+      </div>
+    </div>
+    <div class="prog-stats">
+      <div class="prog-stat"><div class="prog-dot" style="background:#34a853"></div>오답완료 ${done}개</div>
+      <div class="prog-stat"><div class="prog-dot" style="background:#fbbc04"></div>풀이완료 ${solved}개</div>
+      <div class="prog-stat"><div class="prog-dot" style="background:#ea4335"></div>미완료 ${none}개</div>
+      <div class="prog-stat" style="margin-left:auto;color:var(--tx2)">전체 ${total}개</div>
+    </div>
+  </div>`;
+
+  // 탭
+  html += `<div class="tab-nav">
+    <button class="tab-btn active" onclick="switchTab('svc',this)">서비스 현황</button>
+    <button class="tab-btn" onclick="switchTab('test',this)">테스트 결과</button>
+    <button class="tab-btn" onclick="switchTab('att',this)">출결</button>
+  </div>`;
+
+  // 서비스 탭
+  html += `<div class="tab-content active" id="tab-svc">`;
+  if (!s.services || !s.services.length) {
+    html += `<div class="empty-state"><h2>등록된 서비스가 없습니다</h2><p>선생님께 문의해 주세요.</p></div>`;
+  } else {
+    html += `<div class="svc-list">`;
+    s.services.forEach(sv => {
+      const di = ddInfo(sv.deadline);
+      const p2 = svcPct(sv);
+      const bc2 = sv.status==='done'?'#34a853':sv.status==='solved'?'#fbbc04':'#ea4335';
+      const stCls = sv.status==='done'?'st-done':sv.status==='solved'?'st-solved':'st-none';
+      const stTxt = sv.status==='done'?'✅ 오답 완료':sv.status==='solved'?'🟡 풀이 완료':'⬜ 미완료';
+      html += `<div class="svc-card">
+        <div class="svc-top">
+          <span class="svc-name">${sv.name}</span>
+          <span class="dday ${di.c}">${di.t}</span>
+        </div>
+        ${sv.deadline ? `<div class="svc-dl">📅 마감일: ${sv.deadline}</div>` : ''}
+        <span class="svc-status ${stCls}">${stTxt}</span>
+        <div class="svc-bar-track"><div class="svc-bar-fill" style="width:${p2}%;background:${bc2}"></div></div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+  html += `</div>`;
+
+  // 테스트 탭
+  html += `<div class="tab-content" id="tab-test">`;
+  if (!s.tests || !s.tests.length) {
+    html += `<div class="no-test">테스트 기록이 없습니다.</div>`;
+  } else {
+    html += `<table class="test-table">
+      <thead><tr><th>날짜</th><th>과목</th><th>점수</th><th>환산</th></tr></thead>
+      <tbody>`;
+    [...s.tests].reverse().forEach(t => {
+      const pct = Math.round(t.score/t.total*100);
+      const sc = pct>=80?'sh':pct>=60?'sm':'sl';
+      html += `<tr>
+        <td style="color:var(--tx2);font-size:12px">${t.date}</td>
+        <td style="font-weight:500">${t.subject}</td>
+        <td><span class="score-badge ${sc}">${t.score}/${t.total}</span></td>
+        <td style="color:var(--tx2)">${pct}%</td>
+      </tr>`;
+    });
+    html += `</tbody></table>`;
+  }
+  html += `</div>`;
+
+  // 출결 탭
+  html += `<div class="tab-content" id="tab-att"><div id="att-wrap"></div></div>`;
+
+  area.innerHTML = html;
+  renderAttCal(s);
+}
+
+function switchTab(name, el) {
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  if (name==='att') renderAttCal(currentStudent);
+}
+
+// ── 출결 달력 ─────────────────────────────────────────────
+function renderAttCal(s) {
+  const wrap = document.getElementById('att-wrap');
+  if (!wrap) return;
+  if (!s.att) s.att = {};
+  const mn = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+  const tf = todayStr();
+  const firstDay = new Date(attYear, attMonth, 1).getDay();
+  const dim = new Date(attYear, attMonth+1, 0).getDate();
+  const ym = attYear+'-'+(attMonth+1).toString().padStart(2,'0');
+
+  let html = `<div class="att-card">
+    <div class="att-header">
+      <span class="att-month-label">${attYear}년 ${mn[attMonth]}</span>
+      <div class="att-nav">
+        <button class="att-nav-btn" onclick="moveAtt(-1)">&#8249;</button>
+        <button class="att-nav-btn" onclick="moveAtt(0)">●</button>
+        <button class="att-nav-btn" onclick="moveAtt(1)">&#8250;</button>
+      </div>
+    </div>
+    <div class="att-grid">`;
+
+  ['일','월','화','수','목','금','토'].forEach(d => {
+    html += `<div class="att-dow">${d}</div>`;
+  });
+  for (let i=0;i<firstDay;i++) html += `<div class="att-day empty"></div>`;
+  for (let d=1;d<=dim;d++) {
+    const key = ym+'-'+d.toString().padStart(2,'0');
+    const val = s.att[key];
+    let cls = 'att-day';
+    if (val==='O') cls += ' present';
+    else if (val==='X') cls += ' absent';
+    else if (key===tf) cls += ' today';
+    html += `<div class="${cls}">${d}</div>`;
+  }
+
+  const keys = Object.keys(s.att).filter(k=>k.startsWith(ym));
+  const present = keys.filter(k=>s.att[k]==='O').length;
+  const absent  = keys.filter(k=>s.att[k]==='X').length;
+
+  html += `</div>
+    <div class="att-summary">
+      <span class="att-chip" style="background:var(--green-l);color:#137333">출석 ${present}일</span>
+      <span class="att-chip" style="background:var(--red-l);color:#c5221f">결석 ${absent}일</span>
+      <span class="att-chip" style="background:var(--gray-l);color:var(--gray)">미기록 ${dim-present-absent}일</span>
+    </div>
+    <div class="att-legend">
+      <div class="att-leg"><div class="att-leg-box" style="background:var(--green-l);border:1px solid #a8d5b5"></div>출석</div>
+      <div class="att-leg"><div class="att-leg-box" style="background:var(--red-l);border:1px solid #f5c6c5"></div>결석</div>
+      <div class="att-leg"><div class="att-leg-box" style="background:#fff;border:1px solid var(--bd)"></div>미기록</div>
+    </div>
+  </div>`;
+  wrap.innerHTML = html;
+}
+
+function moveAtt(dir) {
+  if (dir===0) { attYear=new Date().getFullYear(); attMonth=new Date().getMonth(); }
+  else { attMonth+=dir; if(attMonth<0){attMonth=11;attYear--;} if(attMonth>11){attMonth=0;attYear++;} }
+  renderAttCal(currentStudent);
+}
 </script>
 </body>
 </html>
