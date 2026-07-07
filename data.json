@@ -566,10 +566,30 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 40,
+      "name": "한경진",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 10,
+          "name": "70만원 가져오십쇼",
+          "deadline": "",
+          "status": "done"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 40,
-  "nSvcId": 10,
+  "nSid": 41,
+  "nSvcId": 11,
   "nTid": 1,
   "nCid": 9
 }
