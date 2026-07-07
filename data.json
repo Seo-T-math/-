@@ -23,6 +23,10 @@
     {
       "id": 7,
       "name": "저현고 3학년 11반"
+    },
+    {
+      "id": 8,
+      "name": "명문"
     }
   ],
   "students": [
@@ -422,10 +426,90 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 32,
+      "name": "이한빈",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 2,
+          "name": "LIG 수석 연구원",
+          "deadline": "",
+          "status": "done"
+        }
+      ],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 33,
+      "name": "최중희",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 3,
+          "name": "그랜드 슬램 앞으로 1보",
+          "deadline": "",
+          "status": "solved"
+        }
+      ],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 34,
+      "name": "김용환",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 4,
+          "name": "대출 스페셜리스트 ",
+          "deadline": "",
+          "status": "done"
+        }
+      ],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 35,
+      "name": "문은혁",
+      "classId": 8,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 5,
+          "name": "GMO 장인",
+          "deadline": "",
+          "status": "done"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 32,
-  "nSvcId": 2,
+  "nSid": 36,
+  "nSvcId": 6,
   "nTid": 1,
-  "nCid": 8
+  "nCid": 9
 }
