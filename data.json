@@ -24,7 +24,7 @@
           "id": 1,
           "name": "수학 문제집",
           "deadline": "",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 2,
@@ -36,14 +36,14 @@
       "tests": [
         {
           "id": 1,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "수학",
           "score": 78,
           "total": 100
         },
         {
           "id": 2,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "영어",
           "score": 92,
           "total": 100
@@ -77,14 +77,14 @@
       "tests": [
         {
           "id": 3,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "수학",
           "score": 78,
           "total": 100
         },
         {
           "id": 4,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "영어",
           "score": 92,
           "total": 100
@@ -118,14 +118,14 @@
       "tests": [
         {
           "id": 5,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "수학",
           "score": 78,
           "total": 100
         },
         {
           "id": 6,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "영어",
           "score": 92,
           "total": 100
@@ -159,14 +159,14 @@
       "tests": [
         {
           "id": 7,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "수학",
           "score": 78,
           "total": 100
         },
         {
           "id": 8,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "영어",
           "score": 92,
           "total": 100
@@ -200,14 +200,14 @@
       "tests": [
         {
           "id": 9,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "수학",
           "score": 78,
           "total": 100
         },
         {
           "id": 10,
-          "date": "2026-06-02",
+          "date": "2026-07-07",
           "subject": "영어",
           "score": 92,
           "total": 100
