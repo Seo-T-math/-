@@ -2,222 +2,430 @@
   "classes": [
     {
       "id": 1,
-      "name": "A반"
+      "name": "월수고1"
     },
     {
       "id": 2,
-      "name": "B반"
+      "name": "화목고1"
+    },
+    {
+      "id": 3,
+      "name": "월수고2"
+    },
+    {
+      "id": 4,
+      "name": "화목고2"
+    },
+    {
+      "id": 5,
+      "name": "약논술"
+    },
+    {
+      "id": 7,
+      "name": "저현고 3학년 11반"
     }
   ],
   "students": [
     {
       "id": 1,
-      "name": "김민준",
-      "classId": 1,
+      "name": "박준혁",
+      "classId": 3,
       "phone": "",
-      "parentPhone": "010-1234-5678",
-      "grade": "고2",
+      "parentPhone": "",
+      "grade": "",
       "memo": "",
       "goal": "",
-      "services": [
-        {
-          "id": 1,
-          "name": "수학 문제집",
-          "deadline": "",
-          "status": "solved"
-        },
-        {
-          "id": 2,
-          "name": "영어 독해",
-          "deadline": "",
-          "status": "solved"
-        }
-      ],
-      "tests": [
-        {
-          "id": 1,
-          "date": "2026-07-07",
-          "subject": "수학",
-          "score": 78,
-          "total": 100
-        },
-        {
-          "id": 2,
-          "date": "2026-07-07",
-          "subject": "영어",
-          "score": 92,
-          "total": 100
-        }
-      ],
+      "services": [],
+      "tests": [],
       "att": {}
     },
     {
       "id": 2,
-      "name": "이서연",
-      "classId": 1,
+      "name": "강태훈",
+      "classId": 3,
       "phone": "",
-      "parentPhone": "010-2345-6789",
-      "grade": "고1",
+      "parentPhone": "",
+      "grade": "",
       "memo": "",
       "goal": "",
-      "services": [
-        {
-          "id": 3,
-          "name": "수학 문제집",
-          "deadline": "",
-          "status": "none"
-        },
-        {
-          "id": 4,
-          "name": "영어 독해",
-          "deadline": "",
-          "status": "solved"
-        }
-      ],
-      "tests": [
-        {
-          "id": 3,
-          "date": "2026-07-07",
-          "subject": "수학",
-          "score": 78,
-          "total": 100
-        },
-        {
-          "id": 4,
-          "date": "2026-07-07",
-          "subject": "영어",
-          "score": 92,
-          "total": 100
-        }
-      ],
+      "services": [],
+      "tests": [],
       "att": {}
     },
     {
       "id": 3,
-      "name": "박지후",
-      "classId": 2,
+      "name": "박지훈",
+      "classId": 3,
       "phone": "",
       "parentPhone": "",
-      "grade": "고3",
+      "grade": "",
       "memo": "",
       "goal": "",
-      "services": [
-        {
-          "id": 5,
-          "name": "수학 문제집",
-          "deadline": "",
-          "status": "none"
-        },
-        {
-          "id": 6,
-          "name": "영어 독해",
-          "deadline": "",
-          "status": "solved"
-        }
-      ],
-      "tests": [
-        {
-          "id": 5,
-          "date": "2026-07-07",
-          "subject": "수학",
-          "score": 78,
-          "total": 100
-        },
-        {
-          "id": 6,
-          "date": "2026-07-07",
-          "subject": "영어",
-          "score": 92,
-          "total": 100
-        }
-      ],
+      "services": [],
+      "tests": [],
       "att": {}
     },
     {
       "id": 4,
-      "name": "최유나",
-      "classId": 2,
+      "name": "문동건",
+      "classId": 3,
       "phone": "",
-      "parentPhone": "010-4567-8901",
-      "grade": "고2",
+      "parentPhone": "",
+      "grade": "",
       "memo": "",
       "goal": "",
-      "services": [
-        {
-          "id": 7,
-          "name": "수학 문제집",
-          "deadline": "",
-          "status": "none"
-        },
-        {
-          "id": 8,
-          "name": "영어 독해",
-          "deadline": "",
-          "status": "solved"
-        }
-      ],
-      "tests": [
-        {
-          "id": 7,
-          "date": "2026-07-07",
-          "subject": "수학",
-          "score": 78,
-          "total": 100
-        },
-        {
-          "id": 8,
-          "date": "2026-07-07",
-          "subject": "영어",
-          "score": 92,
-          "total": 100
-        }
-      ],
+      "services": [],
+      "tests": [],
       "att": {}
     },
     {
       "id": 5,
-      "name": "정도윤",
-      "classId": null,
+      "name": "김담희",
+      "classId": 3,
       "phone": "",
       "parentPhone": "",
-      "grade": "고1",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 7,
+      "name": "이시후",
+      "classId": 3,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 8,
+      "name": "구준모",
+      "classId": 3,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 9,
+      "name": "김도윤",
+      "classId": 3,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 10,
+      "name": "김동률",
+      "classId": 3,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 11,
+      "name": "이진우",
+      "classId": 3,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 12,
+      "name": "이건희",
+      "classId": 3,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 13,
+      "name": "김건우",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 14,
+      "name": "김형후",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 15,
+      "name": "김승기",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 16,
+      "name": "최예훈",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 17,
+      "name": "문정식",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 18,
+      "name": "고윤오",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 19,
+      "name": "김영민",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 20,
+      "name": "이호준",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 21,
+      "name": "이경준",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 22,
+      "name": "박민영",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 23,
+      "name": "장연아",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 24,
+      "name": "노연지",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 25,
+      "name": "김민서",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 26,
+      "name": "김지용",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 27,
+      "name": "성민혁",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 28,
+      "name": "편건호",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 29,
+      "name": "정준호",
+      "classId": 5,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 30,
+      "name": "박규량",
+      "classId": 5,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 31,
+      "name": "조주예",
+      "classId": 7,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
       "memo": "",
       "goal": "",
       "services": [
         {
-          "id": 9,
-          "name": "수학 문제집",
-          "deadline": "",
+          "id": 1,
+          "name": "수요일에 집에서 봐!",
+          "deadline": "2026-07-08",
           "status": "none"
-        },
-        {
-          "id": 10,
-          "name": "영어 독해",
-          "deadline": "",
-          "status": "solved"
         }
       ],
-      "tests": [
-        {
-          "id": 9,
-          "date": "2026-07-07",
-          "subject": "수학",
-          "score": 78,
-          "total": 100
-        },
-        {
-          "id": 10,
-          "date": "2026-07-07",
-          "subject": "영어",
-          "score": 92,
-          "total": 100
-        }
-      ],
+      "tests": [],
       "att": {}
     }
   ],
-  "nSid": 6,
-  "nSvcId": 11,
-  "nTid": 11,
-  "nCid": 3
+  "nSid": 32,
+  "nSvcId": 2,
+  "nTid": 1,
+  "nCid": 8
 }
