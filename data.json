@@ -120,7 +120,7 @@
           "id": 15,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -140,7 +140,7 @@
           "id": 16,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "solved"
+          "status": "done"
         }
       ],
       "tests": [],
@@ -400,7 +400,7 @@
           "id": 29,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "done"
         }
       ],
       "tests": [],
@@ -603,19 +603,6 @@
           "status": "done"
         }
       ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 41,
-      "name": "정준호",
-      "classId": 9,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [],
       "tests": [],
       "att": {}
     },
