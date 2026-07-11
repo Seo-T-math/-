@@ -577,9 +577,27 @@
       "goal": "",
       "services": [
         {
-          "id": 1,
+          "id": 40,
           "name": "수요일에 집에서 봐!",
-          "deadline": "2026-07-08",
+          "deadline": "",
+          "status": "done"
+        },
+        {
+          "id": 41,
+          "name": "선글라스 맞추자!",
+          "deadline": "2026-08-31",
+          "status": "none"
+        },
+        {
+          "id": 42,
+          "name": "제주도 가기",
+          "deadline": "2026-08-22",
+          "status": "none"
+        },
+        {
+          "id": 43,
+          "name": "캐리비안 베이",
+          "deadline": "2026-07-18",
           "status": "none"
         }
       ],
@@ -621,7 +639,7 @@
     }
   ],
   "nSid": 43,
-  "nSvcId": 40,
+  "nSvcId": 44,
   "nTid": 1,
   "nCid": 10
 }
