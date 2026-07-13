@@ -60,7 +60,7 @@
           "id": 12,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -160,7 +160,7 @@
           "id": 17,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -380,7 +380,7 @@
           "id": 28,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -599,26 +599,6 @@
           "name": "캐리비안 베이",
           "deadline": "2026-07-18",
           "status": "none"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 39,
-      "name": "전혜인",
-      "classId": 7,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 9,
-          "name": "개쩔지 다 만들었음",
-          "deadline": "",
-          "status": "done"
         }
       ],
       "tests": [],
