@@ -312,9 +312,9 @@ function renderContent(s) {
       html += `<div class="svc-card">
         <div class="svc-top">
           <span class="svc-name">${sv.name}</span>
-          <span class="dday ${di.c}">${di.t}</span>
+          ${sv.status!=='done'?`<span class="dday ${di.c}">${di.t}</span>`:''}
         </div>
-        ${sv.deadline ? `<div class="svc-dl">📅 마감일: ${sv.deadline}</div>` : ''}
+        ${sv.deadline && sv.status!=='done' ? `<div class="svc-dl">📅 마감일: ${sv.deadline}</div>` : ''}
         <span class="svc-status ${stCls}">${stTxt}</span>
         <div class="svc-bar-track"><div class="svc-bar-fill" style="width:${p2}%;background:${bc2}"></div></div>
       </div>`;
