@@ -212,7 +212,7 @@
           "id": 87,
           "name": "7월 13, 14, 15일 일일퀘스트",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -238,13 +238,13 @@
           "id": 88,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 89,
           "name": "7월 13, 14, 15일 일일퀘스트",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "done"
         }
       ],
       "tests": [],
