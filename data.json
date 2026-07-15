@@ -46,7 +46,7 @@
           "id": 76,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 77,
@@ -110,7 +110,7 @@
           "id": 80,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 81,
@@ -206,7 +206,7 @@
           "id": 86,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 87,
@@ -238,7 +238,7 @@
           "id": 88,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 89,
@@ -264,7 +264,7 @@
           "id": 18,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 90,
@@ -456,7 +456,7 @@
           "id": 24,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 48,
@@ -552,7 +552,7 @@
           "id": 27,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 54,
@@ -648,7 +648,7 @@
           "id": 30,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 60,
@@ -744,7 +744,7 @@
           "id": 33,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 66,
@@ -1222,26 +1222,6 @@
       "att": {}
     },
     {
-      "id": 57,
-      "name": "박서진",
-      "classId": 1,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 112,
-          "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-19",
-          "status": "none"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
       "id": 58,
       "name": "손정민",
       "classId": 1,
@@ -1340,9 +1320,22 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 63,
+      "name": "박선우",
+      "classId": 1,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 63,
+  "nSid": 64,
   "nSvcId": 118,
   "nTid": 1,
   "nCid": 10
