@@ -1245,7 +1245,7 @@
         {
           "id": 43,
           "name": "캐리비안 베이",
-          "deadline": "2026-07-18",
+          "deadline": "2026-07-19",
           "status": "solved"
         }
       ],
@@ -1261,7 +1261,14 @@
       "grade": "",
       "memo": "",
       "goal": "",
-      "services": [],
+      "services": [
+        {
+          "id": 182,
+          "name": "수1, 수2 1단원",
+          "deadline": "2026-07-18",
+          "status": "none"
+        }
+      ],
       "tests": [],
       "att": {}
     },
@@ -1465,32 +1472,6 @@
         },
         {
           "id": 179,
-          "name": "쎈 1p~16p, 연산서 1p~33p",
-          "deadline": "2026-07-19",
-          "status": "none"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
-      "id": 51,
-      "name": "전민재",
-      "classId": 2,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 106,
-          "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-19",
-          "status": "none"
-        },
-        {
-          "id": 180,
           "name": "쎈 1p~16p, 연산서 1p~33p",
           "deadline": "2026-07-19",
           "status": "none"
@@ -1717,10 +1698,30 @@
       "services": [],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 64,
+      "name": "윤태훈",
+      "classId": 9,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 184,
+          "name": "수1, 수2 1단원",
+          "deadline": "2026-07-18",
+          "status": "none"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 64,
-  "nSvcId": 182,
+  "nSid": 65,
+  "nSvcId": 186,
   "nTid": 1,
   "nCid": 10
 }
