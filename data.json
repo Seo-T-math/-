@@ -234,13 +234,13 @@
           "id": 126,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 127,
           "name": "주간퀘스트",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -348,13 +348,13 @@
           "id": 18,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 90,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 91,
@@ -366,7 +366,7 @@
           "id": 132,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 133,
