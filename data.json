@@ -46,25 +46,25 @@
           "id": 76,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 77,
           "name": "7월 13, 14, 15일 일일퀘스트",
           "deadline": "2026-07-15",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 118,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 119,
           "name": "주간퀘스트",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -146,7 +146,7 @@
           "id": 122,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 123,
@@ -272,19 +272,19 @@
           "id": 87,
           "name": "7월 13, 14, 15일 일일퀘스트",
           "deadline": "2026-07-15",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 128,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 129,
           "name": "주간퀘스트",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -322,7 +322,7 @@
           "id": 130,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 131,
@@ -1311,7 +1311,7 @@
         {
           "id": 99,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1337,7 +1337,7 @@
         {
           "id": 100,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1363,7 +1363,7 @@
         {
           "id": 101,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1389,7 +1389,7 @@
         {
           "id": 102,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1415,7 +1415,7 @@
         {
           "id": 103,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1441,7 +1441,7 @@
         {
           "id": 104,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1467,7 +1467,7 @@
         {
           "id": 105,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
@@ -1493,7 +1493,7 @@
         {
           "id": 107,
           "name": "쎈 17p~35p, 연산서 34p~63p",
-          "deadline": "2026-07-26",
+          "deadline": "2026-07-19",
           "status": "none"
         },
         {
