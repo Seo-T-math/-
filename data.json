@@ -534,13 +534,13 @@
           "id": 44,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-16",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 45,
           "name": "7월 14, 15, 16일 일일퀘스트",
           "deadline": "2026-07-16",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 140,
@@ -672,19 +672,19 @@
           "id": 51,
           "name": "7월 14, 15, 16일 일일퀘스트",
           "deadline": "2026-07-16",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 146,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 147,
           "name": "주간퀘스트",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -792,19 +792,19 @@
           "id": 28,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 56,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-16",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 57,
           "name": "7월 14, 15, 16일 일일퀘스트",
           "deadline": "2026-07-16",
-          "status": "none"
+          "status": "solved"
         },
         {
           "id": 152,
@@ -848,19 +848,19 @@
           "id": 59,
           "name": "7월 14, 15, 16일 일일퀘스트",
           "deadline": "2026-07-16",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 154,
           "name": "개념쎈 47p, 연산서 30p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 155,
           "name": "주간퀘스트",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -880,7 +880,7 @@
           "id": 30,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 60,
