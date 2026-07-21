@@ -239,18 +239,22 @@ function doLogin() {
   }
   errEl.style.display = 'none';
 
-  // 서비스에 태깅된 classId로 소속 반 목록 추출
-  const taggedClassIds = [...new Set(
-    (student.services||[]).filter(sv => sv.classId).map(sv => sv.classId)
-  )];
+  // 반 목록 추출 — 서비스 classId + 학생 classId + classIds 모두 합산
+  const fromServices = (student.services||[])
+    .filter(sv => sv.classId).map(sv => sv.classId);
+  const fromStudent = student.classIds && student.classIds.length
+    ? student.classIds
+    : (student.classId ? [student.classId] : []);
 
-  // 태깅된 반이 2개 이상이면 반 선택 화면
-  if (taggedClassIds.length > 1) {
-    showClassSelectScreen(student, taggedClassIds);
+  const allClassIds = [...new Set([...fromServices, ...fromStudent])];
+
+  if (allClassIds.length > 1) {
+    // 반이 2개 이상이면 선택 화면
+    showClassSelectScreen(student, allClassIds);
   } else {
-    // 반이 1개 이하면 바로 전체 현황 표시
+    // 반이 1개 이하면 바로 표시
     currentStudent = student;
-    currentClassId = taggedClassIds[0] || student.classId || null;
+    currentClassId = allClassIds[0] || null;
     attYear = new Date().getFullYear();
     attMonth = new Date().getMonth();
     showMain(student);
