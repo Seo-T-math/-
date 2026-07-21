@@ -221,14 +221,16 @@ function className(cid) {
 }
 
 // ── 로그인 ────────────────────────────────────────────────
+let currentClassId = null;
+
 function doLogin() {
   const input = document.getElementById('name-input').value.trim();
   const errEl = document.getElementById('login-error');
   if (!input) return;
 
-  const student = (DASHBOARD_DATA.students||[]).find(s =>
-    s.name === input || s.name.includes(input) || input.includes(s.name)
-  );
+  const student =
+    (DASHBOARD_DATA.students||[]).find(s => s.name === input) ||
+    (DASHBOARD_DATA.students||[]).find(s => s.name.includes(input) || input.includes(s.name));
 
   if (!student) {
     errEl.style.display = 'block';
@@ -237,11 +239,91 @@ function doLogin() {
   }
 
   errEl.style.display = 'none';
+
+  // 복수 반 등록 여부 확인
+  const classIds = student.classIds && student.classIds.length > 1
+    ? student.classIds
+    : (student.classId ? [student.classId] : []);
+
+  if (classIds.length > 1) {
+    showClassSelectScreen(student, classIds);
+  } else {
+    currentStudent = student;
+    currentClassId = classIds[0] || null;
+    attYear = new Date().getFullYear();
+    attMonth = new Date().getMonth();
+    showMain(student);
+  }
+}
+
+function showClassSelectScreen(student, classIds) {
+  const classes = classIds.map(id => {
+    const c = (DASHBOARD_DATA.classes||[]).find(c => c.id === id);
+    return c || {id, name: '반 ' + id};
+  });
+
+  const buttons = classes.map(c => `
+    <button onclick="selectClass(${c.id}, '${student.name}')"
+      style="width:100%;padding:14px 18px;border-radius:12px;border:1.5px solid var(--bd);background:var(--white);font-size:15px;font-weight:500;font-family:var(--font);cursor:pointer;text-align:left;color:var(--tx);margin-bottom:8px;transition:all .15s"
+      onmouseover="this.style.borderColor='var(--blue)';this.style.background='var(--blue-l)'"
+      onmouseout="this.style.borderColor='var(--bd)';this.style.background='var(--white)'">
+      ${c.name}
+    </button>`).join('');
+
+  document.getElementById('view-login').innerHTML = `
+    <div class="login-wrap">
+      <div class="login-card">
+        <div class="login-logo">
+          <div class="login-logo-dots">
+            <span style="background:#4285f4"></span><span style="background:#ea4335"></span>
+            <span style="background:#fbbc04"></span><span style="background:#34a853"></span>
+          </div>
+        </div>
+        <div class="login-title">${student.name} 학생</div>
+        <div class="login-sub" style="margin-bottom:20px">수강 중인 반을 선택하세요</div>
+        <div style="display:flex;flex-direction:column">${buttons}</div>
+        <button onclick="resetLogin()" style="margin-top:8px;width:100%;padding:10px;border-radius:10px;border:none;background:none;color:var(--tx3);font-size:13px;font-family:var(--font);cursor:pointer">← 다시 검색</button>
+      </div>
+    </div>`;
+  document.getElementById('view-login').style.display = 'flex';
+}
+
+function selectClass(classId, studentName) {
+  const student = (DASHBOARD_DATA.students||[]).find(s => s.name === studentName);
+  if (!student) return;
   currentStudent = student;
+  currentClassId = classId;
   attYear = new Date().getFullYear();
   attMonth = new Date().getMonth();
-  showMain(student);
+
+  // 선택한 반의 서비스만 필터링 (classId 없는 서비스는 공통으로 표시)
+  const filtered = {...student};
+  filtered.services = (student.services||[]).filter(sv => !sv.classId || sv.classId === classId);
+  showMain(filtered);
 }
+
+function resetLogin() {
+  document.getElementById('view-login').innerHTML = `
+    <div class="login-wrap">
+      <div class="login-card">
+        <div class="login-logo">
+          <div class="login-logo-dots">
+            <span style="background:#4285f4"></span><span style="background:#ea4335"></span>
+            <span style="background:#fbbc04"></span><span style="background:#34a853"></span>
+          </div>
+        </div>
+        <div class="login-title">학습 현황 조회</div>
+        <div class="login-sub">자녀의 이름을 입력하시면<br>학습 서비스 진행 현황을 확인하실 수 있습니다.</div>
+        <label class="login-label">학생 이름</label>
+        <input class="login-input" id="name-input" type="text" placeholder="예) 홍길동" autocomplete="off" onkeydown="if(event.key==='Enter')doLogin()">
+        <button class="login-btn" onclick="doLogin()">조회하기</button>
+        <div class="login-error" id="login-error" style="display:none">입력하신 이름의 학생을 찾을 수 없습니다.<br>이름을 다시 확인해 주세요.</div>
+        <div class="login-hint">※ 문의사항은 담당 선생님께 연락해 주세요.</div>
+      </div>
+    </div>`;
+  document.getElementById('view-login').style.display = 'flex';
+}
+
 
 function doLogout() {
   currentStudent = null;
