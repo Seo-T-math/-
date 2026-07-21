@@ -23,6 +23,10 @@
     {
       "id": 9,
       "name": "약논술"
+    },
+    {
+      "id": 10,
+      "name": "기하 특강"
     }
   ],
   "students": [
@@ -1246,7 +1250,7 @@
           "id": 43,
           "name": "캐리비안 베이",
           "deadline": "2026-07-19",
-          "status": "solved"
+          "status": "done"
         }
       ],
       "tests": [],
@@ -1785,10 +1789,114 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 65,
+      "name": "김건우",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 66,
+      "name": "김승기",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 67,
+      "name": "김형후",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 68,
+      "name": "고윤오",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 69,
+      "name": "문정식",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 70,
+      "name": "오정진",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 71,
+      "name": "김지용",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
+    },
+    {
+      "id": 72,
+      "name": "성민혁",
+      "classId": 10,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 65,
+  "nSid": 73,
   "nSvcId": 200,
   "nTid": 1,
-  "nCid": 10
+  "nCid": 11
 }
