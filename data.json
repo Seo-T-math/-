@@ -1974,13 +1974,13 @@
           "id": 104,
           "name": "쎈 17p~35p, 연산서 34p~63p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 178,
           "name": "쎈 1p~16p, 연산서 1p~33p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         }
       ],
       "tests": [],
@@ -2208,7 +2208,7 @@
           "id": 115,
           "name": "쎈 17p~35p, 연산서 34p~63p",
           "deadline": "2026-07-19",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 195,
