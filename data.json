@@ -93,6 +93,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "done"
+        },
+        {
+          "id": 312,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 313,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "solved"
+        },
+        {
+          "id": 364,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 365,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -112,13 +136,13 @@
           "id": 12,
           "name": "개념쏀 19p, 부교재 12p, 주말용프린트",
           "deadline": "2026-07-12",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 78,
           "name": "개념쎈 37p, 연산서 23p",
           "deadline": "2026-07-15",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 79,
@@ -160,6 +184,30 @@
           "id": 238,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 314,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 315,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 366,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 367,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
           "status": "none"
         }
       ],
@@ -229,6 +277,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 316,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 317,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 368,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 369,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -296,6 +368,30 @@
           "id": 244,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 318,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 319,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 370,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 371,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
           "status": "none"
         }
       ],
@@ -365,6 +461,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 320,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 321,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 372,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 373,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -433,6 +553,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "done"
+        },
+        {
+          "id": 322,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 323,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 374,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 375,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -501,6 +645,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "done"
+        },
+        {
+          "id": 324,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 325,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 376,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 377,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -568,6 +736,30 @@
           "id": 256,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 326,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 327,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 378,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 379,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
           "status": "none"
         }
       ],
@@ -637,6 +829,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 328,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 329,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 380,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 381,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -704,6 +920,30 @@
           "id": 262,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 330,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 331,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 382,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 383,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
           "status": "none"
         }
       ],
@@ -773,6 +1013,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 332,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 333,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 384,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 385,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -840,6 +1104,30 @@
           "id": 268,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 334,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 335,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 386,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 387,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
           "status": "none"
         }
       ],
@@ -909,6 +1197,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 336,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 337,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 388,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 389,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -976,6 +1288,30 @@
           "id": 274,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 338,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 339,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 390,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 391,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
           "status": "none"
         }
       ],
@@ -1045,6 +1381,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 340,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 341,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 392,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 393,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1113,6 +1473,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 342,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 343,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 394,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 395,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1168,7 +1552,7 @@
           "id": 281,
           "name": "개념쎈 77p, 연산서49p",
           "deadline": "2026-07-26",
-          "status": "solved"
+          "status": "done"
         },
         {
           "id": 282,
@@ -1180,6 +1564,30 @@
           "id": 283,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 344,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 345,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 396,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 397,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
           "status": "none"
         }
       ],
@@ -1249,6 +1657,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 346,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 347,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 398,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 399,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1317,6 +1749,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 348,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 349,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 400,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 401,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1360,6 +1816,18 @@
           "id": 290,
           "name": "개념쎈 77p, 연산서49p",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 350,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 402,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-07-31",
           "status": "none"
         }
       ],
@@ -1429,6 +1897,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 352,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 353,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 404,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 405,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1496,6 +1988,30 @@
           "id": 298,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 354,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 355,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 406,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 407,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
           "status": "none"
         }
       ],
@@ -1565,6 +2081,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 356,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 357,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 408,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 409,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1632,6 +2172,30 @@
           "id": 304,
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
+          "status": "none"
+        },
+        {
+          "id": 358,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 359,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 410,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 411,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
           "status": "none"
         }
       ],
@@ -1701,6 +2265,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "none"
+        },
+        {
+          "id": 360,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 361,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 412,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 413,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -1769,6 +2357,30 @@
           "name": "3주차 주간퀘스트",
           "deadline": "2026-07-26",
           "status": "done"
+        },
+        {
+          "id": 362,
+          "name": "개념쎈 97p, 연산서 54p",
+          "deadline": "2026-07-31",
+          "status": "done"
+        },
+        {
+          "id": 363,
+          "name": "4주차 일일퀘스트",
+          "deadline": "2026-07-31",
+          "status": "none"
+        },
+        {
+          "id": 414,
+          "name": "개념쎈 119p, 연산서 61p",
+          "deadline": "2026-08-03",
+          "status": "none"
+        },
+        {
+          "id": 415,
+          "name": "4주차 주간퀘스트",
+          "deadline": "2026-08-03",
+          "status": "none"
         }
       ],
       "tests": [],
@@ -2349,7 +2961,7 @@
     }
   ],
   "nSid": 73,
-  "nSvcId": 312,
+  "nSvcId": 416,
   "nTid": 1,
   "nCid": 11
 }
