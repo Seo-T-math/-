@@ -514,7 +514,7 @@
           "id": 320,
           "name": "개념쎈 97p, 연산서 54p",
           "deadline": "2026-07-31",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 321,
@@ -3283,8 +3283,8 @@
       "services": [
         {
           "id": 475,
-          "name": "개념쎈 ~153p  연산서 ~75p",
-          "deadline": "2026-08-16",
+          "name": "새 서비스",
+          "deadline": "",
           "status": "none"
         }
       ],
