@@ -3270,10 +3270,30 @@
       "services": [],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 73,
+      "name": "김지안",
+      "classId": 4,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 475,
+          "name": "개념쎈 ~153p  연산서 ~75p",
+          "deadline": "2026-08-16",
+          "status": "none"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 73,
-  "nSvcId": 475,
+  "nSid": 74,
+  "nSvcId": 476,
   "nTid": 1,
   "nCid": 11
 }
