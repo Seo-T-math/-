@@ -27,6 +27,10 @@
     {
       "id": 10,
       "name": "기하 특강"
+    },
+    {
+      "id": 11,
+      "name": "보성여고1"
     }
   ],
   "students": [
@@ -336,7 +340,7 @@
           "id": 428,
           "name": "5주차 일일퀘스트",
           "deadline": "2026-08-09",
-          "status": "none"
+          "status": "done"
         }
       ],
       "tests": [],
@@ -434,7 +438,7 @@
           "id": 429,
           "name": "개념쎈 141p, 연산서 69p",
           "deadline": "2026-08-09",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 430,
@@ -728,7 +732,7 @@
           "id": 325,
           "name": "4주차 일일퀘스트",
           "deadline": "2026-07-31",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 376,
@@ -740,13 +744,13 @@
           "id": 377,
           "name": "4주차 주간퀘스트",
           "deadline": "2026-07-31",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 435,
           "name": "개념쎈 141p, 연산서 69p",
           "deadline": "2026-08-09",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 436,
@@ -838,7 +842,7 @@
           "id": 378,
           "name": "개념쎈 119p, 연산서 61p",
           "deadline": "2026-07-31",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 379,
@@ -850,7 +854,7 @@
           "id": 437,
           "name": "개념쎈 141p, 연산서 69p",
           "deadline": "2026-08-09",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 438,
@@ -2669,26 +2673,6 @@
       "att": {}
     },
     {
-      "id": 42,
-      "name": "박규량",
-      "classId": 9,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 182,
-          "name": "수1, 수2 1단원",
-          "deadline": "2026-07-18",
-          "status": "none"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
       "id": 43,
       "name": "유병주",
       "classId": 2,
@@ -3161,26 +3145,6 @@
       "att": {}
     },
     {
-      "id": 64,
-      "name": "윤태훈",
-      "classId": 9,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [
-        {
-          "id": 184,
-          "name": "수1, 수2 1단원",
-          "deadline": "2026-07-18",
-          "status": "none"
-        }
-      ],
-      "tests": [],
-      "att": {}
-    },
-    {
       "id": 65,
       "name": "김건우",
       "classId": 10,
@@ -3290,10 +3254,30 @@
       ],
       "tests": [],
       "att": {}
+    },
+    {
+      "id": 74,
+      "name": "전민재",
+      "classId": 11,
+      "phone": "",
+      "parentPhone": "",
+      "grade": "",
+      "memo": "",
+      "goal": "",
+      "services": [
+        {
+          "id": 476,
+          "name": "이런 식으로 안내됩니다.",
+          "deadline": "2026-08-26",
+          "status": "none"
+        }
+      ],
+      "tests": [],
+      "att": {}
     }
   ],
-  "nSid": 74,
-  "nSvcId": 476,
+  "nSid": 75,
+  "nSvcId": 477,
   "nTid": 1,
-  "nCid": 11
+  "nCid": 12
 }
