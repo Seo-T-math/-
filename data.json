@@ -3267,8 +3267,14 @@
       "services": [
         {
           "id": 476,
-          "name": "이런 식으로 안내됩니다.",
-          "deadline": "2026-08-26",
+          "name": "수학 숙제 17p",
+          "deadline": "",
+          "status": "none"
+        },
+        {
+          "id": 477,
+          "name": "영어 숙제 1단원 모의고사",
+          "deadline": "",
           "status": "none"
         }
       ],
@@ -3277,7 +3283,7 @@
     }
   ],
   "nSid": 75,
-  "nSvcId": 477,
+  "nSvcId": 478,
   "nTid": 1,
   "nCid": 12
 }
