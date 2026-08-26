@@ -55,12 +55,6 @@
           "name": "극한 뽀개기 84문제",
           "deadline": "2026-08-28",
           "status": "none"
-        },
-        {
-          "id": 532,
-          "name": "극한 10선",
-          "deadline": "",
-          "status": "none"
         }
       ],
       "tests": [],
@@ -184,17 +178,11 @@
           "id": 488,
           "name": "유형 해결의 법칙 23p.",
           "deadline": "2026-08-28",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 489,
           "name": "극한 뽀개기 84문제",
-          "deadline": "2026-08-28",
-          "status": "none"
-        },
-        {
-          "id": 534,
-          "name": "극한 10선",
           "deadline": "2026-08-28",
           "status": "none"
         }
@@ -222,12 +210,6 @@
           "id": 491,
           "name": "극한 뽀개기 84문제",
           "deadline": "2026-08-28",
-          "status": "none"
-        },
-        {
-          "id": 533,
-          "name": "극한 10선",
-          "deadline": "",
           "status": "none"
         }
       ],
@@ -404,17 +386,11 @@
           "id": 504,
           "name": "유형 해결의 법칙 23p.",
           "deadline": "2026-08-28",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 505,
           "name": "극한 뽀개기 84문제",
-          "deadline": "2026-08-28",
-          "status": "none"
-        },
-        {
-          "id": 535,
-          "name": "극한 10선",
           "deadline": "2026-08-28",
           "status": "none"
         }
@@ -1073,7 +1049,7 @@
       "att": {}
     }
   ],
-  "nSid": 78,
+  "nSid": 81,
   "nSvcId": 536,
   "nTid": 1,
   "nCid": 12
