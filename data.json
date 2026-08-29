@@ -48,7 +48,7 @@
           "id": 478,
           "name": "유형 해결의 법칙 23p.",
           "deadline": "2026-08-28",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 479,
@@ -204,13 +204,19 @@
           "id": 490,
           "name": "유형 해결의 법칙 23p.",
           "deadline": "2026-08-28",
-          "status": "none"
+          "status": "done"
         },
         {
           "id": 491,
           "name": "극한 뽀개기 84문제",
           "deadline": "2026-08-28",
           "status": "none"
+        },
+        {
+          "id": 536,
+          "name": "유형 해결의 법칙 39p.",
+          "deadline": "",
+          "status": "done"
         }
       ],
       "tests": [],
@@ -763,19 +769,6 @@
       "att": {}
     },
     {
-      "id": 49,
-      "name": "홍예지",
-      "classId": 2,
-      "phone": "",
-      "parentPhone": "",
-      "grade": "",
-      "memo": "",
-      "goal": "",
-      "services": [],
-      "tests": [],
-      "att": {}
-    },
-    {
       "id": 50,
       "name": "강윤성",
       "classId": 2,
@@ -1008,15 +1001,21 @@
       "services": [
         {
           "id": 476,
-          "name": "새 서비스",
-          "deadline": "",
+          "name": "영어 올림포스 3, 4 기본문제풀이, 워크북",
+          "deadline": "2026-08-29",
           "status": "none"
         },
         {
           "id": 477,
-          "name": "새 서비스",
-          "deadline": "",
-          "status": "none"
+          "name": "수학 집합의 연산",
+          "deadline": "2026-08-29",
+          "status": "solved"
+        },
+        {
+          "id": 537,
+          "name": "과학 교재 문제풀이",
+          "deadline": "2026-08-29",
+          "status": "solved"
         }
       ],
       "tests": [],
@@ -1050,7 +1049,7 @@
     }
   ],
   "nSid": 81,
-  "nSvcId": 536,
+  "nSvcId": 539,
   "nTid": 1,
   "nCid": 12
 }
