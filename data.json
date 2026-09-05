@@ -1008,14 +1008,20 @@
         {
           "id": 477,
           "name": "수학 집합의 연산",
-          "deadline": "2026-08-29",
+          "deadline": "",
           "status": "solved"
         },
         {
           "id": 537,
           "name": "과학 교재 문제풀이",
-          "deadline": "2026-08-29",
-          "status": "solved"
+          "deadline": "",
+          "status": "done"
+        },
+        {
+          "id": 539,
+          "name": "유형 17까지 문제풀이",
+          "deadline": "2026-09-05",
+          "status": "done"
         }
       ],
       "tests": [],
@@ -1049,7 +1055,7 @@
     }
   ],
   "nSid": 81,
-  "nSvcId": 539,
+  "nSvcId": 540,
   "nTid": 1,
   "nCid": 12
 }
